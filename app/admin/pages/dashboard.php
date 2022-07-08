@@ -28,8 +28,8 @@
 
     <!-- Main content -->
     <section class="content">
-        <div class="alert alert-secondary" style="color: #383d41; background-color: #e2e3e5; border-color: #d6d8db;">
-            Selamat Datang, <?= $_SESSION['fullname']; ?> di Administrator Perpustakaan LTE CS.
+        <div class="alert alert-secondary" style="color: #2e3333; background-color: #d3eef0; border-color: #d6d8db;">
+            Selamat Datang, <?= $_SESSION['fullname']; ?> di Administrator Perpustakaan.
         </div>
         <!-- Small boxes (Stat box) -->
         <div class="row">
@@ -107,9 +107,9 @@
                         <p>Pengembalian</p>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-sign-in"></i>
+                    <i class="fa fa-book"></i>
                     </div>
-                    <a href="data-pengembalian" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-pengembalian" class="small-box-footer">Jumlah Pengembalian </i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -124,7 +124,7 @@
 
             ?>
 
-            <img src="../../assets/dist/img/logo_app.png" width="120px" height="120px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: -20px;">
+            <img src="../../assets/dist/img/buku.png" width="140px" height="160px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: -20px;">
 
             <h2 class="text-center" style="font-family: Quicksand, sans-serif;"><?= $row['nama_app']; ?></h2>
             <p class="text-center">Alamat : <?= $row['alamat_app']; ?>| Email : <?= $row['email_app']; ?> | Nomor Telpon : <?= $row['nomor_hp']; ?> </p>

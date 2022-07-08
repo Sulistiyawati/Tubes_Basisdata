@@ -49,7 +49,7 @@
         $sql = mysqli_query($koneksi, "SELECT * FROM identitas");
         $row1 = mysqli_fetch_assoc($sql);
         ?>
-        <div class="alert alert-secondary" style="color: #383d41; background-color: #e2e3e5; border-color: #d6d8db;">
+        <div class="alert alert-secondary" style="color: #2e3333; background-color: #d3eef0; border-color: #d6d8db;">
             Selamat <?= $salam; ?>, Selamat datang <b><?= $_SESSION['fullname']; ?></b> di <?= $row1['nama_app']; ?>.
         </div>
         <!-- -->
@@ -60,7 +60,7 @@
 
         ?>
 
-        <img src="../../assets/dist/img/logo_app.png" width="120px" height="120px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 100px;">
+        <img src="../../assets/dist/img/buku.png" width="100px" height="120px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 100px;">
 
         <h1 class="text-center"><?= $row['nama_app']; ?></h1>
         <p class="text-center">Alamat : <?= $row['alamat_app']; ?>| Email : <?= $row['email_app']; ?> | Nomor Telpon : <?= $row['nomor_hp']; ?> </p>

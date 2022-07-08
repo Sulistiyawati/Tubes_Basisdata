@@ -167,7 +167,7 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="../../assets/dist/img/avatar5.png" class="user-image" alt="User Image">
+                        <img src="../../assets/dist/img/avatar2.png" class="user-image" alt="User Image">
                         <span class="hidden-xs"><?= $_SESSION['fullname']; ?>
                             <?php include "../../config/koneksi.php";
                             $id = $_SESSION['id_user'];
@@ -185,7 +185,7 @@
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="../../assets/dist/img/avatar5.png" class="img-circle" alt="User Image">
+                            <img src="../../assets/dist/img/avatar2.png" class="img-circle" alt="User Image">
 
                             <p>
                                 <!-- -->
